@@ -12,9 +12,9 @@
 #include "mpi_gmp.h"
 #include "mpi_mpfr.h"
 
-#define M 1024    /*must: M==N*/
+#define M 1024
 #define N 1024
-#define p 10
+#define p 10    /*M=N=2^p*/
 #define L 140    /*Taylor*/
 #define prec 864    /*Ns*/
 

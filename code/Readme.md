@@ -1,4 +1,6 @@
-"2DKFLOW-CNS.c", "2DKFLOW-CNS1.c" or "2DKFLOW-CNS2.c" is the main program written in C language using the MPFR library and MPI parallel technique, which needs two header files "mpi_gmp.h" and "mpi_mpfr.h". One can compile the main program via the command *mpicc* such as that written in "makefile", and run the compiled executable file via the command *mpirun* such as that written in "run.sh". Settings of numerical parameters in the main program are as follows:
+"2DKFLOW-CNS.c", "2DKFLOW-CNS1.c" or "2DKFLOW-CNS2.c" is the main program written in C language using the MPFR library and MPI parallel technique, which needs two header files "mpi_gmp.h" and "mpi_mpfr.h". One can compile the main program via the command *mpicc* such as that written in "makefile", and run the compiled executable file via the command *mpirun* such as that written in "run.sh". Settings of numerical parameters in the main program are explained as follows:
+
+Line 15~17: Spatial discretization with uniform mesh
 
 Line 18: Order of Taylor expansion
 
